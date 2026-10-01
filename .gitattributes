@@ -1,0 +1,6 @@
+# Normalizar finales de linea en el repo (evita ruido por core.autocrlf en Windows)
+* text=auto eol=lf
+
+# Archivos que deben quedar con CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf

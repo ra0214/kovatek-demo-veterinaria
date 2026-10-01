@@ -1,0 +1,20 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Node (esta demo no usa npm, por si se anaden herramientas)
+node_modules/
+
+# Archivos locales / secretos
+.env
+.env.*
+*.local
+
+# Despliegues
+.vercel
